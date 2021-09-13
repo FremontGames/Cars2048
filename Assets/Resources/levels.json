@@ -1,0 +1,17 @@
+{
+	"acts": [
+	{
+		"id": 0, "name": "CLASSIC", "chapters": [
+			{ 	"id": 0, "require": 0, "objective": 2048, "unlimited":false, "path": "Levels/2048" }
+		]
+	},
+	{
+		"id": 1, "name": "CARS", "chapters": [
+			{ 	"id": 101, "require": 0,   "objective": 2048, "unlimited":false, "path": "Levels/f40" },
+			{ 	"id": 102, "require": 4,   "objective": 2048, "unlimited":false, "path": "Levels/model_t" },
+			{ 	"id": 103, "require": 11,  "objective": 2048, "unlimited":false, "path": "Levels/beetle" },
+			{ 	"id": 104, "require": 20,  "objective": 2048, "unlimited":false, "path": "Levels/deville" },
+			{ 	"id": 105, "require": 30,  "objective": 2048, "unlimited":false, "path": "Levels/uaz_469" }
+		]
+	}
+]}

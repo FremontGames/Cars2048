@@ -1,0 +1,39 @@
+{
+	"themes": [
+	{
+		"name": "CaliforniaTheme", 
+		"Text": "FFFFFF",
+		"Background": "0BC0C0",
+		"Warning": "FF8F52",
+		"Primary": "EFB19E",
+		"Accent": "FF5296"
+	}
+	,
+	{
+		"name": "OceanTheme", 
+		"Text": "FFFFFF",
+		"Background": "004B96",
+		"Warning": "FF0000",
+		"Primary": "106cc8",
+		"Accent": "FFB800"
+	}
+	,
+	{
+		"name": "FireTheme", 
+		"Text": "FFFFFF",
+		"Background": "E58D3E",
+		"Warning": "FF0000",
+		"Primary": "fc3d02",
+		"Accent": "FFFF00"
+	}
+	,
+	{
+		"name": "2048Theme", 
+		"Text": "3C3734",
+		"Background": "fbf8ef",
+		"Warning": "FB6B23",
+		"Primary": "baac9f",
+		"Accent": "e4c12d"
+	}
+	]
+}
