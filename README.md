@@ -28,12 +28,12 @@ GooglePlay/Android : [Cars 2048 - Puzzle Game](https://play.google.com/store/app
 
 ## Screenshots
 
-![screenshots](/screenshots/app-image.png)
+![screenshots](/docs/README/app-image.png)
 
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.02-PM.png)
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.02-PM-001.png)
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.02-PM-001.png)
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.03-PM.png)
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.03-PM-001.png)
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.04-PM.png)
-![screenshots](/screenshots/Screen-Shot-12-30-18-at-10.04-PM-001.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.02-PM.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.02-PM-001.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.02-PM-001.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.03-PM.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.03-PM-001.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.04-PM.png)
+![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.04-PM-001.png)
