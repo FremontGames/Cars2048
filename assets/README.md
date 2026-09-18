@@ -28,11 +28,11 @@ GooglePlay/Android : [Cars 2048 - Puzzle Game](https://play.google.com/store/app
 
 ## Screenshots
 
-![screenshot](/README/20170900_113215.gif)
+![screenshot](./README/20170900_113215.gif)
 
-![screenshot](/README/20171007_(0).gif)
+![screenshot](./README/20171007_(0).gif)
 
-![screenshot](/README/20171008_(1).gif)
+![screenshot](./README/20171008_(1).gif)
 
-![screenshot](/README/20200610_(1).gif)
+![screenshot](./README/20200610_(1).gif)
 
