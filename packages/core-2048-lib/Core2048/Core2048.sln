@@ -1,0 +1,27 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2048", "Core2048.csproj", "{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2048.Tests", "..\Core2048.Tests\Core2048.Tests.csproj", "{344AF925-9166-4A08-8207-DC73EC22F025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{40D0DE7E-69DA-45A3-9048-507FD7D9FCD7}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{344AF925-9166-4A08-8207-DC73EC22F025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344AF925-9166-4A08-8207-DC73EC22F025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344AF925-9166-4A08-8207-DC73EC22F025}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344AF925-9166-4A08-8207-DC73EC22F025}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{344AF925-9166-4A08-8207-DC73EC22F025}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{344AF925-9166-4A08-8207-DC73EC22F025}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
