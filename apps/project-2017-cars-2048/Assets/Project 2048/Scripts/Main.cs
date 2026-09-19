@@ -50,7 +50,7 @@ class Main: IMain
         Application.targetFrameRate = Globals.QUALITY_FRAMERATE;
         QualitySettings.vSyncCount = Globals.QUALITY_VSYNC;
         Ads = new AdMobHelper();
-        Ads.Initialize("admob");
+        Ads.Start();
 
         // DATA
         Save = new PlayerPrefsHelper();

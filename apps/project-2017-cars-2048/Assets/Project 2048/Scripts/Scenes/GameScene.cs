@@ -5,13 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using System.IO;
 using Commons;
 using Commons.Animations;
 using Commons.UI;
 using Commons.Inputs;
 using Project2048;
-using GoogleMobileAds.Api;
 
 class GameSceneProps
 {
@@ -48,7 +46,6 @@ class GameScene : MonoBehaviour
     GameObject TileMovePrefab;
     GameObject WinAnimation;
     GameObject CardDialog;
-    InterstitialAd Ads;
 
     void Start()
     {
@@ -71,7 +68,6 @@ class GameScene : MonoBehaviour
         InitActions();
         InitAds();
         InitAudio();
-        Main.Ads.RequestBanner("BannerView Bottom");
     }
 
     void Update()
@@ -83,11 +79,10 @@ class GameScene : MonoBehaviour
 
     private void InitAds()
     {
-        Ads = Main.Ads.RequestInterstitial("InterstitialAd Undo");
-        Ads.OnAdClosed += HandleOnAdClosed;
+        Main.Ads.LoadAd();
+        Main.Ads.LoadLoadInterstitialAd();
+        Main.Ads.SetOnInterstitialAdClosed(new Action(() => HandleOnAdClosed()));
     }
-
-
 
     internal void HelpOpenAction()
     {
@@ -106,13 +101,12 @@ class GameScene : MonoBehaviour
 
     internal void UndoAction()
     {
-        if (Ads.IsLoaded())
-            Ads.Show();
+        Main.Ads.ShowInterstitialAd();
         Model = Core.Undo();
         UpdateScreenAfterAction();
     }
 
-    public void HandleOnAdClosed(object sender, EventArgs args)
+    public void HandleOnAdClosed()
     {
         IEnumerator coroutine = HandleOnAdClosedWaitRoutine();
         StartCoroutine(coroutine);
@@ -121,7 +115,7 @@ class GameScene : MonoBehaviour
     private IEnumerator HandleOnAdClosedWaitRoutine()
     {
         yield return new WaitForSeconds(Globals.TIME_BETWEEN_ADS);
-        Ads.LoadAd(Main.Ads.BuildRequest());
+        Main.Ads.LoadLoadInterstitialAd();
     }
 
     internal void MoveAction(Movement move)

@@ -29,7 +29,7 @@ class Globals
     public const int ACHIV_COINS_VALUE = 1;
     public const int ACHIV_TUTORIAL_THRESHOLD = 15;
     public const int ACHIV_NEWTILE_ANIM_THRESHOLD = 2;
-    public const float TIME_BETWEEN_ADS = 15.0f;
+    public const float TIME_BETWEEN_ADS = 45.0f;
 
     public const string SCENE_MAIN = "Main";
     public const string SCENE_MAP = "Menu";

@@ -1,0 +1,71 @@
+# PROJECT
+#*/Assets/Plugins/
+#*/Assets/GoogleMobileAds/
+#*/Assets/PlayServicesResolver/
+#*/Assets/LightRays2D/
+
+# UNITY3D
+*.pidb.meta
+sysinfo.txt/[Ll]ibrary/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+.utmp
+/[Ll]ogs/
+
+
+# UNITY3D - GOOGLEPLAY ADMOB
+*/Assets/ExternalDependencyManager/
+*/Assets/GoogleMobileAds/
+*/Assets/Plugins/
+*/Assets/ExternalDependencyManager.meta
+*/Assets/GoogleMobileAds.meta
+*/Assets/Plugins.meta
+
+# ANDROID
+*/.gradle
+*/Logs
+
+# VISUAL STUDIO
+*.vs
+ExportedObj/
+.consulo/
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+**/packages/
+**/bin/
+**/Debug/
+*.csproj
+
+# VISUAL STUDIO
+.axoCover
+
+# VISUAL STUDIO CODE
+.vscode
+
+# BLENDER
+*.blend1
+blendcache_*
+
+# JAVA
+*.class
+*.war
+*.ear
+.classpath
+.project
+.settings
+target
+*.symbols.zip
+.idea
