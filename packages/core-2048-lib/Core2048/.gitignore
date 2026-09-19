@@ -1,0 +1,25 @@
+# VISUAL STUDIO
+*.vs
+ExportedObj/
+.consulo/
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+**/packages/
+**/bin/
+**/obj/
+**/Debug/
+.axoCover
+TestResults/
+
+# IDEA
+.idea
+
+# GODOT
+.godot

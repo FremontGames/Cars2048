@@ -48,6 +48,7 @@ ExportedObj/
 **/bin/
 **/Debug/
 *.csproj
+.vsconfig
 
 # VISUAL STUDIO
 .axoCover
