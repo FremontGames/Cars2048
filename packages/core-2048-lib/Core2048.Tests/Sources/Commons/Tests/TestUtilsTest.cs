@@ -8,7 +8,7 @@ namespace Commons.Tests
         [TestMethod]
         public void Test_00_input()
         {
-            string[][] res = GameTest.ReadFile("../../Resources/Test_00_input-i.txt");
+            string[][] res = GameTest.ReadFile("../../../Resources/Test_00_input-i.txt");
             Assert.IsNotNull(res);
             Assert.AreEqual(5, res.Length);
             GameAssert.AreEqual(new string[] { "4", "3" }, res[0]);
@@ -21,7 +21,7 @@ namespace Commons.Tests
         [TestMethod]
         public void Test_00_input_spaces()
         {
-            string[][] res = GameTest.ReadFile("../../Resources/Test_00_input_spaces-i.txt");
+            string[][] res = GameTest.ReadFile("../../../Resources/Test_00_input_spaces-i.txt");
             Assert.IsNotNull(res);
             Assert.AreEqual(3, res.Length);
             GameAssert.AreEqual(new string[] { "4", "3" }, res[0]);

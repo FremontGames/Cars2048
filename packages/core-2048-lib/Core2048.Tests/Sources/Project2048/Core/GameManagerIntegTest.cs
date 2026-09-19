@@ -27,7 +27,7 @@ namespace Project2048.Core
         {
             TestReloadThenTurn("usecase_08_history_undo1_1o2");
 
-            string[][] exp = GameTest.ReadFile("../../Resources/usecase_08_history_undo1_2o2-o.txt");
+            string[][] exp = GameTest.ReadFile("../../../Resources/usecase_08_history_undo1_2o2-o.txt");
             string[][] res = FromOutputToArray(
                 game.Undo());
             DisplayResult(res);
@@ -38,15 +38,15 @@ namespace Project2048.Core
         {
             TestReloadThenTurn("usecase_08_history_undo2_1o3");
 
-            string[][] inp = GameTest.ReadFile("../../Resources/usecase_08_history_undo2_2o3-i.txt");
-            string[][] exp = GameTest.ReadFile("../../Resources/usecase_08_history_undo2_2o3-o.txt");
+            string[][] inp = GameTest.ReadFile("../../../Resources/usecase_08_history_undo2_2o3-i.txt");
+            string[][] exp = GameTest.ReadFile("../../../Resources/usecase_08_history_undo2_2o3-o.txt");
             string[][] res = FromOutputToArray(
                 game.Turn(
                     FromArrayToInput2(inp)));
             DisplayResult(res);
             GameAssert.AreEqual(exp, res);
 
-            exp = GameTest.ReadFile("../../Resources/usecase_08_history_undo2_3o3-o.txt");
+            exp = GameTest.ReadFile("../../../Resources/usecase_08_history_undo2_3o3-o.txt");
             res = FromOutputToArray(
                 game.Undo());
             DisplayResult(res);
@@ -55,8 +55,8 @@ namespace Project2048.Core
         [TestMethod]
         public void Usecase_01_init()
         {
-            string[][] inp = GameTest.ReadFile("../../Resources/usecase_01_init-i.txt");
-            string[][] exp = GameTest.ReadFile("../../Resources/usecase_01_init-o.txt");
+            string[][] inp = GameTest.ReadFile("../../../Resources/usecase_01_init-i.txt");
+            string[][] exp = GameTest.ReadFile("../../../Resources/usecase_01_init-o.txt");
             string[][] res = FromOutputToArray(game.Start(
                 FromArrayToInput(inp)));
             Assert.IsNotNull(exp);
@@ -167,8 +167,8 @@ namespace Project2048.Core
 
         public void TestReload(string usecase)
         {
-            string[][] inp = GameTest.ReadFile("../../Resources/" + usecase + "-i.txt");
-            string[][] exp = GameTest.ReadFile("../../Resources/" + usecase + "-o.txt");
+            string[][] inp = GameTest.ReadFile("../../../Resources/" + usecase + "-i.txt");
+            string[][] exp = GameTest.ReadFile("../../../Resources/" + usecase + "-o.txt");
             string[][] res = FromOutputToArray(
                 game.Reload(
                     FromArrayToInput3(inp)));
@@ -178,8 +178,8 @@ namespace Project2048.Core
 
         public void TestReloadThenTurn(string usecase)
         {
-            string[][] inp = GameTest.ReadFile("../../Resources/" + usecase + "-i.txt");
-            string[][] exp = GameTest.ReadFile("../../Resources/" + usecase + "-o.txt");
+            string[][] inp = GameTest.ReadFile("../../../Resources/" + usecase + "-i.txt");
+            string[][] exp = GameTest.ReadFile("../../../Resources/" + usecase + "-o.txt");
             game.Reload(
                 FromArrayToInput3(inp));
             string[][] res = FromOutputToArray(
