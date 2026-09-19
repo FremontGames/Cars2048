@@ -37,3 +37,30 @@ GooglePlay/Android : [Cars 2048 - Puzzle Game](https://play.google.com/store/app
 ![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.03-PM-001.png)
 ![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.04-PM.png)
 ![screenshots](/docs/README/Screen-Shot-12-30-18-at-10.04-PM-001.png)
+
+
+## Content
+
+- [Install](#install)
+- [Usage](#usage)
+- [Publish](#publish)
+
+---------------------------------------
+
+## Install
+
+```powershell
+.\tools\ci\clean.bat
+
+.\tools\ci\install.bat
+```
+
+## Usage
+
+```powershell
+.\tools\ci\test.bat
+```
+
+```powershell
+.\tools\ci\build.bat
+```
