@@ -1,0 +1,53 @@
+# UNITY3D
+*.pidb.meta
+sysinfo.txt/[Ll]ibrary/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+.utmp
+/[Ll]ogs/
+
+# UNITY3D - GOOGLEPLAY ADMOB
+Assets/ExternalDependencyManager
+Assets/ExternalDependencyManager.meta
+Assets/GoogleMobileAds/
+Assets/GoogleMobileAds.meta
+Assets/Plugins/
+Assets/Plugins.meta
+
+# ANDROID
+*/.gradle
+*/Logs
+
+# VISUAL STUDIO
+*.vs
+ExportedObj/
+.consulo/
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+**/packages/
+**/bin/
+**/Debug/
+*.csproj
+.vsconfig
+
+# VISUAL STUDIO
+.axoCover
+
+# VISUAL STUDIO CODE
+.vscode
+
+# IDEA
+.idea

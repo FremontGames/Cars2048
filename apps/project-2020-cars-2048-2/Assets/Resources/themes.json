@@ -1,0 +1,12 @@
+{
+	"themes": [
+	{
+		"name": "2048Theme", 
+		"Text": "3C3734",
+		"Background": "fbf8ef",
+		"Warning": "FB6B23",
+		"Primary": "baac9f",
+		"Accent": "e4c12d"
+	}
+	]
+}

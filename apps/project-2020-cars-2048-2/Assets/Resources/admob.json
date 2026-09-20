@@ -1,0 +1,14 @@
+{
+	"TagForChildDirectedTreatment": true,
+	"Excl_cat": "dating,sports,rpg,mmo,war,action,adventure,racing,role,strategy",
+	"Keywords": [
+		 "game" ,
+		 "reflexion",
+		 "puzzle",
+		 "family safe",
+
+		 "cars" ],
+	"Ads": [
+		{ "Name": "BannerView Bottom",   "ID": "ca-app-pub-2137428709527727/7640899956" },
+		{ "Name": "InterstitialAd Undo", "ID": "ca-app-pub-2137428709527727/7996123174" }]
+}
