@@ -1,0 +1,7 @@
+# MONOREPO
+build/
+
+# IDE
+.vscode
+.vsconfig
+.idea

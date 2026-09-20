@@ -48,7 +48,7 @@ Phone:
 Unity Project:
 - install legacy packages
     - UI -0.0: 
-    click `Unity Editor: Window Menu > Package Manager > UI > install`
+    click `Unity Editor: Window Menu > Package Manager > uGUI > install`
 - install googleads package
     - get [GoogleMobileAds-v8.5.3.unitypackage](https://github.com/googleads/googleads-mobile-unity/releases/tag/v8.6.0)
     - click `Unity Editor: Asset Menu > Import Package > Custom Package`
@@ -79,7 +79,7 @@ Update Admob plugin:
         - copy password from [./user.txt](./user.txt)
         - type `Project Keystore > Password`
         - type `Project Key > Password`
-    - go to `Unity Editor: File Menu > Build Prpofiles > Android`
+    - go to `Unity Editor: File Menu > Build Profiles > Android`
     - run app
         - select `Run Device`: "Samsung SM..."
         - click `Build and Run`
@@ -102,6 +102,13 @@ adb.exe logcat -s Unity PackageManager dalvikvm DEBUG
     - copy password from [./user.txt](./user.txt)
     - type `Project Keystore > Password`
     - type `Project Key > Password`
+- Android App Bundle:
+    - To configure an application to be an AAB:
+    - Open the Build Profiles window (menu: File > Build Profiles).
+    - From the list of platforms in the Platforms panel, select Android.
+    - Select Player Settings for Android.
+    - In the Publishing Settings section, enable Split Application Binary.
+    - On the Build Profiles window, under Platform Settings section, enable Build App Bundle (Google Play)
 - go to `Unity Editor: File Menu > Build Settings > Android`
     - click `Build`
     - create "Build" folder

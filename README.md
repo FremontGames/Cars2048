@@ -53,6 +53,9 @@ GooglePlay/Android : [Cars 2048 - Puzzle Game](https://play.google.com/store/app
 .\tools\ci\clean.bat
 
 .\tools\ci\install.bat
+
+# Unity: Windows > Package Manager > "uGUI"
+# Unity: Assets > Import Package > Custom > "GoogleMobileAds-v11.5.0.unitypackage"
 ```
 
 ## Usage
@@ -64,3 +67,11 @@ GooglePlay/Android : [Cars 2048 - Puzzle Game](https://play.google.com/store/app
 ```powershell
 .\tools\ci\build.bat
 ```
+
+## Release
+
+```powershell
+.\tools\ci\build.bat
+```
+
+Get package from `./build/<PROJECT>.apk` folder. Then archive sources from `./build/<PROJECT>-sources.zip`.

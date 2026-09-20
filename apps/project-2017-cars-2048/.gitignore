@@ -1,9 +1,3 @@
-# PROJECT
-#*/Assets/Plugins/
-#*/Assets/GoogleMobileAds/
-#*/Assets/PlayServicesResolver/
-#*/Assets/LightRays2D/
-
 # UNITY3D
 *.pidb.meta
 sysinfo.txt/[Ll]ibrary/
@@ -18,14 +12,13 @@ sysinfo.txt/[Ll]ibrary/
 .utmp
 /[Ll]ogs/
 
-
 # UNITY3D - GOOGLEPLAY ADMOB
-*/Assets/ExternalDependencyManager/
-*/Assets/GoogleMobileAds/
-*/Assets/Plugins/
-*/Assets/ExternalDependencyManager.meta
-*/Assets/GoogleMobileAds.meta
-*/Assets/Plugins.meta
+Assets/ExternalDependencyManager
+Assets/ExternalDependencyManager.meta
+Assets/GoogleMobileAds/
+Assets/GoogleMobileAds.meta
+Assets/Plugins/
+Assets/Plugins.meta
 
 # ANDROID
 */.gradle
@@ -56,17 +49,5 @@ ExportedObj/
 # VISUAL STUDIO CODE
 .vscode
 
-# BLENDER
-*.blend1
-blendcache_*
-
-# JAVA
-*.class
-*.war
-*.ear
-.classpath
-.project
-.settings
-target
-*.symbols.zip
+# IDEA
 .idea
