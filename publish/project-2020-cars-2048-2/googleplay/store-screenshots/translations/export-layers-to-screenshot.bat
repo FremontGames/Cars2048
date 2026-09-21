@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Photoshop\Photoshop.exe" %cd%\export-layers-to-screenshot.jsx
